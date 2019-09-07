@@ -51,30 +51,7 @@ class PolyTreeNode
   end
 end
 
-# class Searchable
-    
-# end
 
 
-# g.remove_child(d)
-
-#    a
-#  /   \
-#  b    c #children[f, g]
-# / \  / \
-# d  e f  g #children[i]
-#          \
-#           i
 
 
-# node1 = PolyTreeNode.new("a", [node2, node3])
-# node2 = PolyTreeNode.new("b")
-# node3 = PolyTreeNode.new("c")
-
-# node2.parent = node1
-
-#    a
-#  /   \
-#  b    c
-# / \  / \
-# d  e f  g
