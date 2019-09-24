@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: responses
+#
+#  id               :integer          not null, primary key
+#  question_id      :integer
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#  answer_choice_id :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  question_id: 1
+  answer_choice: 1
+
+two:
+  question_id: 1
+  answer_choice: 1
