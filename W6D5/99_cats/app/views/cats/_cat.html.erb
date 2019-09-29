@@ -1,0 +1,13 @@
+<tr>  
+  <td>birthdate: <%= cat.birth_date %></td>
+  <td>color: <%= cat.color %></td>
+  <td>name: <%= cat.name %></td>
+  <td>sex: <%= cat.sex %></td>
+  <td>description: <%= cat.description %></td>  
+  <td><% if action == :show %>
+  <a href="<%= cats_url %>">Cats List</a>
+<% else %>
+  <a href="<%= cat_url(cat)%>">Cats Show Page</a>
+<% end %></td>
+</tr>
+

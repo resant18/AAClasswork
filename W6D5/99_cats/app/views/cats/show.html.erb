@@ -1,0 +1,17 @@
+<table>
+  <thead>
+      <tr>
+          <th colspan="6">Cat List</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>  
+        <td>birthdate: <%= @cat.birth_date %></td>
+        <td>color: <%= @cat.color %></td>
+        <td>name: <%= @cat.name %></td>
+        <td>sex: <%= @cat.sex %></td>
+        <td>description: <%= @cat.description %></td>  
+        <td><a href="<%= cats_url %>">Cats List</a></td>  
+      </tr>
+    </tbody>
+</table>
