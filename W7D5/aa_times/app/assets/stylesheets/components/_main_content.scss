@@ -1,0 +1,61 @@
+.flex-container {
+  display: flex;
+  font-family: $serif;
+  font-size: .8em;
+}
+
+.flex-item {
+  display: flex;
+  margin-right: 20px;
+}
+
+.right-side{
+  flex-direction: column;
+}
+
+.contributor-operations {
+  display: flex;
+}
+
+.contributor {
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.video {
+  display: block;
+}
+
+.opinion {
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font-size:2em;
+  font-style: italic;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.author{
+  color: gray;
+}
+
+
+// .right-side {
+//   display: flex;
+//   flex-flow: row wrap;
+// }
+
+// @media all and (max-width: 600px) {
+//   .flex-item { flex: 1 0 0; }
+// }
+
+// @media all and (min-width: 800px) {
+  
+//   .video { flex: 1 0px; }
+//   .curriculum {order:1;}
+//   .video {order:2;}
+//   .right-side {order:3;}
+// }

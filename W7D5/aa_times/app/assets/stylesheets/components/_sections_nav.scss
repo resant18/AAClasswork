@@ -1,0 +1,19 @@
+.topics {
+  display: flex;
+  justify-content: center;
+}
+
+.topics ul {
+  display: flex;
+}
+.topics ul li {
+  margin-left: 20px;
+}
+
+.topics ul li:first-child {
+  margin-left: 0;
+}
+
+.topics li a:hover {
+  background-color: $lightest-gray;
+}
