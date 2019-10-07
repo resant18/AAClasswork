@@ -1,0 +1,14 @@
+<div class="border">
+    <h1><%= link_to @post.title, post_url(@post) %> by <%= @post.author.username %></h1>
+    <div class="small-border">
+        <p>Content:</p>
+        <%= @post.content %>
+    </div>
+
+    <h3>Subs</h3>
+    <ul>
+        <% @post.subs.each do |sub| %>
+          <li><%= link_to sub.title, sub_url(sub) %></li>
+        <% end %>
+    </ul>
+<div>
