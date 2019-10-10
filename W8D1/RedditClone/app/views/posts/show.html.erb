@@ -11,4 +11,9 @@
           <li><%= link_to sub.title, sub_url(sub) %></li>
         <% end %>
     </ul>
+    <h2>Comments</h2>
+    <%= link_to "Comment on this post!", new_post_comment_url(@post) %>
+    <ul>
+        <li></li>
+    </ul>
 <div>

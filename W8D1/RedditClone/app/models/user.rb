@@ -15,6 +15,10 @@ class User < ApplicationRecord
         class_name: :Post,
         dependent: :destroy
 
+    has_many :comments,
+        foreign_key: :author_id,
+        class_name: :Comment
+
     attr_reader :password
 
     def self.find_by_credentials(username, password)        
