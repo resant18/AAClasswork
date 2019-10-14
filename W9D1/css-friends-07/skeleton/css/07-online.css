@@ -1,0 +1,18 @@
+/* PHASE 7: Online */
+.online {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg) translateX(-25%);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    background: blueviolet;
+    color: white;
+    top: -5px;
+    left: -10px;
+    overflow: hidden;
+    font-size: 0.75em;
+    font-weight: 600;
+    padding: 5px 30px;
+    /* need overflow: hidden in parent container, not here */
+}
