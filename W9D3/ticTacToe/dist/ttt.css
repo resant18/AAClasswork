@@ -1,0 +1,56 @@
+h1 {
+  display: block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 600px;
+  height: 600px;
+  /* grid-gap: 1em; */
+  margin: 0 auto;
+  background: white;
+  /* padding: .5em; */
+  padding-left: 0;
+  box-sizing: border-box;
+  border: 4px solid black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background: gray;
+
+  border: 4px solid black;
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+.tile {
+  font-size: 6em;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+  display: block;
+  padding: 40px;
+}
+
+figcaption {
+  display: block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+li.selected {
+  background-color: white;
+}

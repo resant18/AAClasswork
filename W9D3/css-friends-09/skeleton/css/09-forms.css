@@ -1,0 +1,24 @@
+/* PHASE 9: Forms */
+.field-form {
+  float: left;
+  display: block;
+}
+
+.form-thumb {
+  float: left;
+}
+
+.field-form {
+    float: left;
+    margin: 0 0 0 20px;
+    padding: 19px;
+    width: 500px;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input > label {
+  display: block;
+  font-weight: 600;
+}

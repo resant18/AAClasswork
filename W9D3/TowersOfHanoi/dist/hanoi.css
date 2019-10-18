@@ -1,0 +1,29 @@
+ul {
+  float: left;
+  list-style: none;
+  width: 180px;
+  padding: 0 0 10px 0;
+  cursor: pointer;
+  border-bottom: 10px solid black;
+  display: block;
+}
+
+li {
+  width: 0px;
+  margin: 10px auto;
+  height: 50px;
+  background: gray;
+  border-radius: 25px;
+}
+
+li.disk-1 {
+  width: 60px;
+}
+
+li.disk-2 {
+  width: 120px;
+}
+
+li.disk-3 {
+  width: 180px;
+}
